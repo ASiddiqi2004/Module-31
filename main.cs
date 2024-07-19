@@ -10,11 +10,11 @@ class Program {
 
         if (length > 140)
         {
-            Console.WriteLine("Too long, please shorten to below 140 words.");
+            Console.WriteLine("Too long, please shorten to below 140 words. Rejected");
         }
         else
         {
-            Console.WriteLine("This message is elligble.");
+            Console.WriteLine("This message is elligble. Posted");
           }
       }
   }
