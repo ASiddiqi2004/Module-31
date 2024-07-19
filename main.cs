@@ -6,7 +6,7 @@ class Program {
         Console.WriteLine("Enter message:");
         string message = Console.ReadLine();
 
-        int length = message.length;
+        int length = message.Length;
 
         if (length > 140)
         {
