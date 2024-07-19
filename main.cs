@@ -6,7 +6,7 @@ class Program {
         Console.WriteLine("Enter message:");
         string message = Console.ReadLine();
 
-        int length = message.Length;
+        int length = message.length;
 
         if (length > 140)
         {
@@ -15,6 +15,7 @@ class Program {
         else
         {
             Console.WriteLine("This message is elligble.");
-        }
-    }
+          }
+      }
   }
+  
